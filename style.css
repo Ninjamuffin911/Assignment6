@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 30px;
+    width: 97%;
+    position: fixed;
+    top: 0;
+    left: 40px;
+    background-color: darkcyan;
+    color: darkgreen;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.whiteBox{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.bufferContainer{
+    height: 40px;
+}
+
+.container1{
+    width: 100%;
+    min-height: 200px;
+    background-image: url("water.jpeg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.container2{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 90px;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.blueBar{
+    width: 200px;
+    height: 20px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lipsum1Box {
+    min-height: 120px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.lipsum2Box {
+    min-height: 80px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container4{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bigbox{
+    width: 330px;
+    height: 120px;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer{
+    position: fixed;
+    background-color: darkcyan;
+    color: white;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
